@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     screens: {
       sm: '480px',
@@ -23,7 +23,7 @@ module.exports = {
           300: "#1a1a1a",
           400: "#000000",
         },
-        midnight: "#dc86665"
+        midnight: "#421c81"
       },
       spacing: {
         '128': '32rem',
