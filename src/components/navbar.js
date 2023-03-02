@@ -4,7 +4,7 @@ import { rocket } from "../assets";
 
 const Navbar = () => {
   return (
-    <header className="w-full  flex flex-col overflow-hidden">
+    <header className="w-full bg-Snow-400 flex flex-col overflow-hidden">
       <nav className="w-[90%] m-auto flex">
         <div className="md:flex block w-full">
           <div className="w-full flex justify-center md:justify-start items-center p-4">
